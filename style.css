@@ -95,7 +95,20 @@
 
 .ex-7-img:hover
 {
-    filter:grayscale(50%) contrast(150%);
+    filter:grayscale(50%) sepia(50%);
+}
+
+/* Ex 8 */
+
+.ex-8-img
+{
+    transition:border-radius 2s, filter 2s;
+}
+
+.ex-8-img:hover
+{
+    border-radius:20px;
+    filter:grayscale(50%) sepia(50%);
 }
 
 .ex-9-img {
