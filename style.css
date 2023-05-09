@@ -111,10 +111,21 @@
     filter:grayscale(50%) sepia(50%);
 }
 
+/* Ex 9 */
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition:border-radius 2s, filter 2s, transform 2s;
 }
+
+.ex-9-img:hover
+{
+    border-radius:30px;
+    filter:grayscale(50%) sepia(50%);
+    transform:scale(1.5);
+}
+
 .ex-10-icon {
     font-size: 60px;
 }
