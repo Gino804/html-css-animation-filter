@@ -194,3 +194,31 @@
     width: 60px;
     height: 20px;
 }
+
+/* Ex 12 */
+
+.ex-12-button:hover .ex-12-top-white
+{
+    animation:ex-12-top-animation 2s linear
+}
+
+.ex-12-button:hover .ex-12-bottom-white
+{
+    animation:ex-12-bottom-animation 2s linear
+}
+
+@keyframes ex-12-top-animation
+{
+    50%
+    {
+        left:calc(100% - 60px);
+    }
+}
+
+@keyframes ex-12-bottom-animation
+{
+    50%
+    {
+        right:calc(100% - 60px);
+    }
+}
